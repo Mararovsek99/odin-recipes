@@ -1,62 +1,35 @@
-body{
-    text-align: center;
-}
-
-.menu .title{
-
-    text-align: center;
-    vertical-align: middle;
-}
-
-img{
-
-    float: inline-start;
-    width: 800px;
-    height: auto;
-}
-
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .background-image{
 
-    background-image: url(recipes/background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    width: 100%;
     height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(recipes/background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
 }
-
-.menu{
-
-    background: rgb(172, 192, 219);
-    border-radius: 20px;
-    width: 1000px;;
-    
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
 }
-
-
-body ul{
-    display: inline-flex;
-    list-style: none;
-    color: rgb(176, 224, 42);
+.logo{
+    width: 50px;
+    cursor: pointer;
 }
-
-body ul li{
-
-    width:fit-content;
-    margin: 15px;
-    padding: 15px;
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
 }
-
-body ul li a{
-
-    text-decoration: none;
-}
-
-body ul li:hover{
-
-    background-color: blue;
-    border-radius: 7px;
+nav{
+    flex: 1;
+    text-align: right;
 }
