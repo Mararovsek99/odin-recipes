@@ -1,11 +1,15 @@
 body{
     text-align: center;
 }
+
 .menu .title{
+
     text-align: center;
     vertical-align: middle;
 }
+
 img{
+
     float: inline-start;
     width: 800px;
     height: auto;
@@ -15,31 +19,44 @@ img{
     margin: 0;
     padding: 0;
 }
+
 .background-image{
+
     background-image: url(recipes/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
+
 .menu{
+
     background: rgb(172, 192, 219);
     border-radius: 20px;
+    width: 1000px;;
     
 }
+
+
 body ul{
     display: inline-flex;
     list-style: none;
     color: rgb(176, 224, 42);
 }
+
 body ul li{
-    width: 120px;
+
+    width:fit-content;
     margin: 15px;
     padding: 15px;
 }
+
 body ul li a{
+
     text-decoration: none;
 }
+
 body ul li:hover{
+
     background-color: blue;
     border-radius: 7px;
 }
