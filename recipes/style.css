@@ -1,0 +1,30 @@
+/*styles of second pages*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.background-image{
+
+    width: 100%;
+    height:fit-content;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    padding: 8%;
+}
+img,h1, h2, h3, p{
+    color: white;
+    padding-top: 20px;
+}
+ul, ol{
+    background-color: rgb(255,255,255,0.4);
+    padding: 7px;
+    padding-left: 25px;
+    margin-top: 10px;
+    
+    
+}
